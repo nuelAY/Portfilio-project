@@ -769,7 +769,7 @@ section {
     padding: 7rem 3rem;
   }
   .main-title h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .main-title h2 span {
     font-size: 2rem;
@@ -808,19 +808,36 @@ section {
     padding-top: 2.5rem;
   }
   .portfolios {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    min-width: 100%;
+    justify-content: center;
+    margin: -1.5rem;
   }
   .blogs {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    min-width: 100%;
   }
   .contact-content-con .left-contact .contact-info {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr;
+  }
+  .contact-content-con .left-contact .contact-info .contact-info .contact-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contact-content-con .left-contact .contact-info .contact-info .contact-item p {
+    margin: 0.3rem 0 !important;
+    padding: 0 !important;
+  }
+  .contact-content-con .left-contact .contact-info .contact-info .contact-item p span {
+    justify-content: space-evenly;
   }
   .main-title h2 {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
   .main-title h2 span {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .main-title h2 .bg-text {
     font-size: 4.5rem;
